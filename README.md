@@ -89,6 +89,6 @@ Created by **Aung Myo Paing**
 
 ### ☁️ Train Your Own Model (Kaggle)
 If you want to train this model yourself using a free cloud GPU, I have included the training notebook:
-* `notebooks/Robot_Vision_YOLO_Kaggle_Training.ipynb`
+* `notebooks/Indoor_Object_Detection_Kaggle_Training.ipynb`
 
 You can upload this directly to Kaggle, attach a YOLO dataset, and run all cells to get your own `best.pt`!
