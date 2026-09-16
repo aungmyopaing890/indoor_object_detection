@@ -89,7 +89,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
  
 
 ### ☁️ Train Your Own Model (Kaggle)
-If you want to train this model yourself using a free cloud GPU, I have included the training notebook:
+If you want to train this model yourself using a free cloud GPU, you can use the public dataset and notebook provided below:
+
+* **Dataset (15,000+ Images):** [Kaggle Dataset](https://www.kaggle.com/datasets/aungmyopaing/everyday-household-objects-dataset)
+* **Training Pipeline:** [Kaggle Notebook](https://www.kaggle.com/code/aungmyopaing/indoor-object-detection)
+
+Alternatively, the local training script is provided in:
 * `notebooks/Indoor_Object_Detection_Kaggle_Training.ipynb`
 
-You can upload this directly to Kaggle, attach a YOLO dataset, and run all cells to get your own `best.pt`!
+Simply upload the dataset and notebook to Kaggle and run all cells to get your own `best.pt`!
