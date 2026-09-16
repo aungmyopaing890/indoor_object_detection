@@ -18,6 +18,13 @@ The trained YOLO model accurately detects highly-requested objects, even in clut
 
 ![Detection Result 1](assets/images/result_1.jpg) ![Detection Result 2](assets/images/result_2.jpg)
 
+### Training Metrics
+Below are the training metrics and the confusion matrix showing the model's performance across the 20 classes after 100 epochs.
+
+![Training Results](assets/images/training_results.png)
+![Confusion Matrix](assets/images/confusion_matrix.png)
+
+
 ---
 
 ## 🎯 Target Objects (20 Classes)
