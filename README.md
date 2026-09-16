@@ -22,7 +22,7 @@ The trained YOLO model accurately detects highly-requested objects, even in clut
 
 ## 🎯 Target Objects (20 Classes)
 
-The robot is trained to detect the following items:
+The model is trained to detect the following items:
 `smartphone`, `laptop`, `bottle`, `keys`, `watch`, `remote`, `charging_cable`, `book`, `glasses`, `cup`, `coffee_mug`, `pen`, `earbuds`, `earbuds_case`, `headphone`, `shoe`, `keyboard`, `umbrella`, `plant`, `container`.
 
 ---
@@ -74,7 +74,7 @@ This model was trained purely in the cloud using Kaggle's free Dual T4 GPUs.
 
 The training script used:
 ```bash
-yolo detect train data=data.yaml model=yolov8n.pt epochs=100 imgsz=416 batch=32 name=robot_assistant
+yolo detect train data=data.yaml model=yolov8n.pt epochs=100 imgsz=416 batch=32 name=indoor_assistant
 ```
 
 ---

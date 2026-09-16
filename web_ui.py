@@ -22,7 +22,7 @@ def detect_objects(image):
 
 # Build the Gradio Interface
 with gr.Blocks(theme=gr.themes.Soft()) as demo:
-    gr.Markdown("# 🤖 Robot Vision Assistant")
+    gr.Markdown("# 🏠 Indoor Vision Assistant")
     gr.Markdown("Upload an image or use your webcam to test the indoor object detection model!")
     
     with gr.Row():
