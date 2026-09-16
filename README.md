@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ### 1. Launch the Interactive Web UI
 The easiest way to test the model is using the built-in Gradio interface:
 ```bash
-python web_ui.py
+python app/web_ui.py
 ```
 *This will open a local webpage where you can upload photos or use your webcam to see the detection in real-time!*
 
