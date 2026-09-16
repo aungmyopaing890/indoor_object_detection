@@ -24,6 +24,20 @@ Below are the training metrics and the confusion matrix showing the model's perf
 ![Training Results](assets/images/training_results.png)
 ![Confusion Matrix](assets/images/confusion_matrix.png)
 
+#### Final Model Evaluation (100 Epochs)
+* **Precision:** 77.3%
+* **Recall:** 55.1%
+* **mAP@50:** 63.4%
+
+#### Training Specifications
+* **Architecture:** YOLOv8 Nano (`yolov8n.pt`)
+* **Resolution:** 416x416 (Optimized for high-speed edge inference)
+* **Dataset Size:** 17,053 images (13,642 Train / 3,411 Val)
+* **Hardware:** Nvidia Dual-T4 Cloud GPUs (Kaggle)
+* **Training Time:** ~11.8 minutes
+
+*Observation: The model achieves an impressive 63.4% mAP50 for an ultra-lightweight Nano architecture. It performs exceptionally well on distinct objects (e.g., laptops, bottles) but occasionally struggles with smaller, visually similar objects (e.g., earbuds vs. keys) due to the low 416x416 input resolution.*
+
 
 ---
 
