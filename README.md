@@ -85,6 +85,7 @@ Created by **Aung Myo Paing**
 * [LinkedIn](https://linkedin.com/in/aungmyopaing)
 
 ## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
  
 
 ### ☁️ Train Your Own Model (Kaggle)
