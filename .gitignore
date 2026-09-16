@@ -6,3 +6,5 @@ runs/
 *.jpg
 *.png
 !assets/
+data/
+*.zip
